@@ -87,14 +87,18 @@
 
 #boximgtwo,
 #boximgthree,
-#boximgfour {
+#boximgfour,
+#boximgseven,
+#boximglast {
     width: 100%;
 }
 
 #phoenix,
 #lana,
 #alec,
-#demi {
+#demi,
+#Candice,
+#natali {
     color: #6941C6;
     font-size: 14px;
 }
@@ -102,7 +106,9 @@
 #migrating,
 #building,
 #bill,
-#mental {
+#mental,
+#framing,
+#collaboration {
     color: #181D27;
     font-size: 24px;
     display: inline-block;
@@ -112,7 +118,9 @@
 #migrating,
 #bill,
 #building,
-#mental {
+#mental,
+#framing,
+#collaboration {
     margin: 0;
 
 }
@@ -120,14 +128,18 @@
 #helps,
 #rise,
 #like,
-#models {
+#models,
+#industry,
+#Collaborationlast {
     overflow: hidden;
     color: #535862;
     font-size: 16px;
     max-width: 384px;
 }
 
-#containerthree,#containersix {
+#containerthree,
+#containersix,
+#containerlast {
     margin-top: 64px;
     width: 30%;
     display: inline-block;
@@ -246,4 +258,45 @@
     background: #FEF6EE;
     color: #B93815;
     text-align: center;
+}
+
+#designlastbt {
+    padding: 8px 16px;
+    align-items: center;
+    border-radius: var(--radius-full, 9999px);
+    border: 1px solid #E9D7FE;
+    background: #F9F5FF;
+    color: #6941C6;
+    text-align: center;
+}
+
+#Researchlastbt {
+    padding: 8px 16px;
+    align-items: center;
+    border-radius: var(--radius-full, 9999px);
+    border: 1px solid #C7D7FE;
+    background: #EEF4FF;
+    color: #3538CD;
+    text-align: center;
+}
+
+#designLast {
+    padding: 8px 16px;
+    align-items: center;
+    border-radius: var(--radius-full, 9999px);
+    border: 1px solid #E9D7FE;
+    background: #F9F5FF;
+}
+
+#ResearchlastBt {
+   
+    padding: 8px 16px;
+    align-items: center;
+    border-radius: var(--radius-full, 9999px);
+    border: 1px solid #C7D7FE;
+    background: #EEF4FF;
+}
+
+#collaboration {
+    max-width: 344px;
 }
