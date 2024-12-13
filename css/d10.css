@@ -1,7 +1,7 @@
 #container {
     align-items: center;
     background: #FFF;
-    
+
 }
 
 #maincontainer {
@@ -77,7 +77,9 @@
     margin: 8px;
 }
 
-#containerboxtwo {
+#containerboxtwo,
+#imgdivtwo,
+#imgdivthree {
     margin-top: 64px;
     width: 30%;
     display: inline-block;
@@ -91,35 +93,41 @@
 
 #phoenix,
 #lana,
-#alec {
+#alec,
+#demi {
     color: #6941C6;
     font-size: 14px;
 }
 
 #migrating,
 #building,
-#bill {
+#bill,
+#mental {
     color: #181D27;
     font-size: 24px;
     display: inline-block;
     vertical-align: middle;
 }
 
-#migrating, #bill, #building {
+#migrating,
+#bill,
+#building,
+#mental {
     margin: 0;
-    
+
 }
 
 #helps,
 #rise,
-#like {
+#like,
+#models {
     overflow: hidden;
     color: #535862;
     font-size: 16px;
     max-width: 384px;
 }
 
-#containerthree {
+#containerthree,#containersix {
     margin-top: 64px;
     width: 30%;
     display: inline-block;
@@ -205,5 +213,37 @@
     text-align: right;
     vertical-align: middle;
     margin-left: 60px;
-    
+
+}
+
+#producttwo {
+    border-radius: var(--radius-full, 9999px);
+    border: 1px solid #B9E6FE;
+    background: #F0F9FF;
+    padding: 8px 12px;
+    align-items: center;
+    color: #026AA2;
+    text-align: center;
+
+}
+
+#Research {
+    padding: 8px 12px;
+    align-items: center;
+    border-radius: var(--radius-full, 9999px);
+    border: 1px solid #C7D7FE;
+    background: #EEF4FF color;
+    text-align: center;
+    color: #3538CD;
+}
+
+#frame {
+
+    padding: 8px 12px;
+    align-items: center;
+    border-radius: var(--radius-full, 9999px);
+    border: 1px solid #F9DBAF;
+    background: #FEF6EE;
+    color: #B93815;
+    text-align: center;
 }
